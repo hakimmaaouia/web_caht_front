@@ -1,0 +1,25 @@
+.container{
+    background:#fff;
+    justify-content:left;
+    text-align:left;
+    align-items:initial;   
+    
+}
+.header{
+    background: #b3a6db;
+    height:60px;
+    border-radius:0px 0px 3px 3px;
+}
+.room {
+    padding: 16px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.cercle{
+    width:10px;
+    height:10px;
+    background: rgb(1, 148, 57);
+    border-radius: 50%;
+    display: inline-block;
+
+}

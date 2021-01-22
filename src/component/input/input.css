@@ -1,0 +1,16 @@
+.send{
+    overflow: hidden;
+    background: #b3a6db;
+    padding: 10px;
+    border-radius:3px 3px 0px 0px;
+}
+
+
+.sendbuttom{
+    float:right;
+}
+.inputmessage{
+    width: 400px;
+    background: #fff;
+   border:#a8a6ad solid 1px;
+}

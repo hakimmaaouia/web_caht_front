@@ -1,0 +1,42 @@
+.chatbox{
+    height: 400px;
+    overflow: auto;
+}
+
+.containerMessage{
+    margin: 25px 10px;
+}
+
+
+
+.message-data-time {
+    color: #92959e;
+    font-size: 12px;
+  }
+
+  .data_name{
+     padding-top: 6px;
+     padding-left: 10px;
+     font-size: 15px;
+     font-weight: 400;
+  }
+
+
+  .message-box{
+    margin-left:20px ;
+    background: #b3a6db;
+    display:block;
+     padding: 15px;
+     border-radius: 0px 5px 5px 5px;
+     font-size: 12px;
+     word-wrap: break-word;
+     letter-spacing: 0;
+     display: inline-block;
+     Max-width:65%; 
+  }
+  .centre{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
