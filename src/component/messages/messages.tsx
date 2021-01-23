@@ -9,7 +9,6 @@ const Messages=({socket}:any)=>{
         setmessages(messages => [...messages, message]);
       })
     },[])
-    console.log(messages);
     
     return(
         <div className="chatbox"> 

@@ -8,9 +8,11 @@
 
 .sendbuttom{
     float:right;
+    position: absolute;
 }
 .inputmessage{
-    width: 400px;
+    width: 380px;
+    
     background: #fff;
    border:#a8a6ad solid 1px;
 }

@@ -1,7 +1,8 @@
 import React from "react";
 import "./message.css";
 import Avatar from "@material-ui/core/Avatar";
-import EmojiPicker from 'interweave-emoji-picker';
+import Emoji from "react-emoji-render";
+
 const Adminmessage=({
   message: {
     Name,
@@ -37,7 +38,7 @@ return(
     </div>
   </div>
   <div className="message-box">
-  {message}
+  <Emoji text={message} />
   </div>
 </div>
 )
